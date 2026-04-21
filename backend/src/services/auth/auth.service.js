@@ -383,7 +383,7 @@ class AuthService {
   }
 
   async createSuperAdmin() {
-    const superAdminEmail = process.env.SUPER_ADMIN_EMAIL || 'admin@simmanagement.com';
+    const superAdminEmail = process.env.SUPER_ADMIN_EMAIL || 'santoshshimpankar61@gmail.com';
     const superAdminPassword = process.env.SUPER_ADMIN_PASSWORD || 'SuperAdmin@123';
     const superAdminName = process.env.SUPER_ADMIN_NAME || 'Super Admin';
 
